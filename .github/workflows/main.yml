@@ -1,9 +1,9 @@
 name: Publish Docker Image
 on: push
 jobs:
-  push_docker_image_to_registory:        
+  push_docker_image_to_registory:         
     name: Push Docker Image to Registory
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps: 
       - name: Check out Repo 
